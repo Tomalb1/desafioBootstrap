@@ -1,0 +1,98 @@
+
+.rr{
+    grid-area: rr;
+    height: 30px;
+    width: 100%;
+    background-color: #e2e2e2
+}
+
+body{
+    display: grid;
+    grid-template-areas: "rr"
+                         "header"
+                         "main"
+                         "footer";
+
+    font-family: 'Mukta', sans-serif;
+    background-color: #fff;
+} 
+/*Estilos Header */
+header{
+    grid-area: header;
+    background-color: #fff;
+}
+.logo{
+    max-width: auto;
+    max-height: 100px;
+}
+.menu{
+    padding: 1rem;
+}
+
+.menu:hover{
+    
+    border-bottom: solid 2.5px #111;
+
+
+}
+.botones:hover{
+    
+    transform: scale(1.5);
+    transition: 0.5s;
+
+}
+
+.no-hover-color:hover{
+    
+    color: #111;
+}
+
+.links{
+    text-decoration: none;
+    color: #111;
+}
+.height-60{
+    height: 60px;
+    
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+
+    font-size: 21px;
+    text-decoration: none;
+    color: #111;
+}
+
+
+/* Estilo para imagenes del carrusel */
+main{
+    grid-area: main;
+    width: 100%;
+}
+.img-main{
+    max-width: 100%;
+    max-height: 950px;
+    
+}
+
+footer{
+    grid-area: footer;
+    height: 100px;
+    background-color: #111;
+}
+footer p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: gainsboro;
+}
+
+/* Estilos contacto */
+
+#inputAddress2{
+    height: 100px;
+}
