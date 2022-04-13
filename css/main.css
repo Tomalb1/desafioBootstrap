@@ -41,13 +41,16 @@ header{
     transition: 0.5s;
 
 }
-
+.no-hover{
+    border: color #fff;
+}
 .no-hover-color:hover{
     
     color: #111;
 }
 
 .links{
+
     text-decoration: none;
     color: #111;
 }
